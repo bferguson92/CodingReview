@@ -1,10 +1,9 @@
 1. Create a function to print the duplicates in a list of strings
 public void findDuplicates(List<String> strings){};
-![alt text]("https://raw.githubusercontent.com/bferguson92/CodingReview/master/Screen%20Shot%202019-09-26%20at%208.52.50%20AM.png")
 
 2. Create function to check if the string is a palindrome without using string.reverse() method
 public boolean checkPalindrome(String word){};
-![alt text]
+
 3. Create a function that will print:
 "fizz" is the number is divisible by 3
 "buzz" is the number is divisible by 5
