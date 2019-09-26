@@ -104,18 +104,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void multiplicationTable(){
         Log.d("TAB", "In multiplicationTable");
-        int [][] multiTable = new int[100][100];
+        int [][] multiTable = new int[10][10];
 
-        for(int i = 0; i < 11; i++){
-            for(int j = 0; j < 11; j++){
+        for(int i = 0; i < 10; i++){
+            for(int j = 0; j < 10; j++){
                 multiTable[i][j] = ((i + 1) * (j + 1));
                 Log.d("TAB", Integer.toString(multiTable[i][j]));
             }
         }
 
-
-        Log.d("TAB", Arrays.toString(multiTable));
-
+        for(int i = 0; i < multiTable.length; i++){
+            Log.d("TAB", Arrays.toString(multiTable[i]));
+        }
     }
 
 }
