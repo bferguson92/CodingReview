@@ -1,6 +1,8 @@
 1. Create a function to print the duplicates in a list of strings
 public void findDuplicates(List<String> strings){};
 
+![image]("https://github.com/bferguson92/CodingReview/blob/master/Screen%20Shot%202019-09-26%20at%208.52.50%20AM.png" =250x)
+
 2. Create function to check if the string is a palindrome without using string.reverse() method
 public boolean checkPalindrome(String word){};
 
